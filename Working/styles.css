@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kranky&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
 * {
     box-sizing: border-box;
     font-family: 'Kranky', cursive;
@@ -42,11 +42,12 @@ html, body {
 }
 .product-name-large {
     font-size: 5em;
+    color: rgba(27, 209, 66, 0.486);
 }
 .nav a:hover {
     color: rgba(40, 38, 179, 0.404);
 }
-.introduction-text {
+.introduction-text, .market h2, .market li {
     text-align: justify;
     font-family: 'Comic Sans MS';
     font-size: 1.1em;
@@ -55,4 +56,25 @@ html, body {
     width: 300px;
     height: auto;
     float: left;
+}
+h2.marketing {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 2em;
+    font-weight: lighter;
+}
+.main-footer {
+    background-color: aquamarine;
+    text-align: center;
+    padding: 1em;
+}
+.footer-nav img {
+    width: 30px;
+    height: auto;
+    display: inline-block;
+    padding: 0 5% 14% 5%;
+}
+.main-footer-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
