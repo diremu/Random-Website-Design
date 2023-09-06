@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Kranky&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Kranky', cursive;
+}
+html, body {
+    padding: 0;
+    margin: 0;
+}
+.nav a{
+    text-decoration: none;
+    padding: .5em;
+    display: inline-block;
+    color: white;
+}
+.nav ul {
+    margin: 0;
+}
+.nav li {
+    display: inline;
+}
+.main-header {
+    background-color: aquamarine;
+    flex-direction: row;
+}
+.product-name {
+    font-family: 'Kranky', cursive;
+    font-size: 2em;
+    margin: 0;
+    font-size: 4em;
+    text-align: center;
+}
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+}
+.main-nav li {
+    padding: 0 5%;
+}
+.product-name-large {
+    font-size: 5em;
+}
+.nav a:hover {
+    color: rgba(40, 38, 179, 0.404);
+}
+.introduction-text {
+    text-align: justify;
+    font-family: 'Comic Sans MS';
+    font-size: 1.1em;
+}
+.brand-logo {
+    width: 300px;
+    height: auto;
+    float: left;
+}
